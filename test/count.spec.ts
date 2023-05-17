@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest'
 import countChars from '../src/count.js'
 
 describe('countChars()', () => {
