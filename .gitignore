@@ -116,3 +116,6 @@ dist
 .vscode-test
 
 # End of https://www.toptal.com/developers/gitignore/api/node
+
+# exclude fixture files
+!/test/fixtures/walk/node_modules/
