@@ -94,6 +94,23 @@ export default {
 }
 ```
 
+vite example.
+
+```js
+// vite.config.js
+import { defineConfig } from 'vite'
+import { nodeboxFsFiles } from '@hankei6km/rollup-plugin-nodebox-fs-files'
+
+export default defineConfig({
+  plugins: [
+    nodeboxFsFiles({
+      from: 'box-src/vite-project',
+      insertTo: 'src/files.mjs'
+    })
+  ]
+})
+```
+
 ## License
 
 MIT License
