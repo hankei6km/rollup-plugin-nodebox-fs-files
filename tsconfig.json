@@ -11,13 +11,6 @@
     "outDir": "dist",
     "esModuleInterop": true
   },
-  "exclude": [
-    "node_modules",
-    "src/**/*.test.ts"
-  ],
-  "include": [
-    "src/**/*.ts",
-    "test/**/*.spec.ts",
-    "src/**/*.tsx"
-  ]
+  "exclude": ["node_modules", "src/**/*.test.ts"],
+  "include": ["src/**/*.ts", "test/**/*.spec.ts", "src/**/*.tsx"]
 }

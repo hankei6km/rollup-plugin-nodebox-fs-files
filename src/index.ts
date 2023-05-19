@@ -1,2 +1,2 @@
-import countChars from './count.js'
-export { countChars }
+export { nodeboxFsFiles } from './files.js'
+export type { NodeboxFsFilesOptions } from './files.js'

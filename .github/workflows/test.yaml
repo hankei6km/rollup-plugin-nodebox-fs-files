@@ -43,4 +43,4 @@ jobs:
       - name: Run tests
         run: |
           npm run lint:type-check
-          npm run test
+          npm run test:run

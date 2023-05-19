@@ -10,6 +10,7 @@
   },
   "keywords": [
     "rollup-plugin",
+    "vite-plugin",
     "nodebox"
   ],
   "main": "dist/index.js",
@@ -22,9 +23,10 @@
   "scripts": {
     "build": "npm run clean && tsc && rimraf dist/test && mv dist/src/* dist/ && rimraf dist/src",
     "test": "vitest",
+    "test:run": "vitest run",
     "test:debug": "vitest run --inspect-brk --threads false --coverage false",
     "lint:type-check": "tsc --noEmit",
-    "clean": "rimraf \"dist/*\"",
+    "clean": "rimraf dist/",
     "upgrade-interactive": "npm-check --update",
     "csb:test": "npm test -- --runInBand --watchAll"
   },
@@ -35,6 +37,11 @@
     "rimraf": "^5.0.0",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.4",
+    "vite": "^4.3.8",
     "vitest": "^0.31.0"
+  },
+  "dependencies": {
+    "@rollup/pluginutils": "^5.0.2",
+    "rollup": "^3.22.0"
   }
 }
