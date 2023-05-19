@@ -1,6 +1,6 @@
 {
   "name": "@hankei6km/rollup-plugin-nodebox-fs-files",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Converts files to Nodebox files",
   "author": "hankei6km <hankei6km@gmail.com> (https://github.com/hankei6km)",
   "license": "MIT",
