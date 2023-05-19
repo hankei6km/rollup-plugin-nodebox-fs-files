@@ -104,7 +104,7 @@ import { nodeboxFsFiles } from '@hankei6km/rollup-plugin-nodebox-fs-files'
 export default defineConfig({
   plugins: [
     nodeboxFsFiles({
-      from: 'box-src/vite-project',
+      from: 'box-src/proj',
       insertTo: 'src/files.mjs'
     })
   ]
