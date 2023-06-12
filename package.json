@@ -38,7 +38,7 @@
     "ts-node": "^10.9.1",
     "typescript": "^5.0.4",
     "vite": "^4.3.8",
-    "vitest": "^0.31.0"
+    "vitest": "^0.32.0"
   },
   "dependencies": {
     "@rollup/pluginutils": "^5.0.2",
