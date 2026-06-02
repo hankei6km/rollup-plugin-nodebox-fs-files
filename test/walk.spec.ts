@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { makeFilesFiter } from '../src/files'
+import { makeFilesFiter } from '../src/files.js'
 import { walk } from '../src/walk.js'
 
 describe('walk()', () => {
